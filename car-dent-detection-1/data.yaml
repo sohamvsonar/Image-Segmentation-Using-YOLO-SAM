@@ -1,0 +1,13 @@
+train: /content/car-dent-detection-1/train/images
+val: /content/car-dent-detection-1/valid/images
+test: /content/car-dent-detection-1/test/images
+
+nc: 17
+names: ['Front-Windscreen-Damage', 'Headlight-Damage', 'Major-Rear-Bumper-Dent', 'Rear-windscreen-Damage', 'RunningBoard-Dent', 'Sidemirror-Damage', 'Signlight-Damage', 'Taillight-Damage', 'bonnet-dent', 'doorouter-dent', 'fender-dent', 'front-bumper-dent', 'medium-Bodypanel-Dent', 'pillar-dent', 'quaterpanel-dent', 'rear-bumper-dent', 'roof-dent']
+
+roboflow:
+  workspace: yash-sawant
+  project: car-dent-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yash-sawant/car-dent-detection/dataset/1
